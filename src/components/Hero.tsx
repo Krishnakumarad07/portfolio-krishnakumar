@@ -23,9 +23,12 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight"
+              className="text-2xl sm:text-4xl md:text-4xl font-bold mb-6 leading-tight"
             >
-              Hi, I'm <span className="text-primary text-3xl sm:text-4xl md:text-6xl">Krishna Kumar A D</span>
+              <span className="block sm:inline">Hi, I'm </span>
+              <span className="block sm:inline text-primary text-3xl sm:text-4xl md:text-5xl">
+                Krishna Kumar A D
+              </span>
             </motion.h1>
 
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
